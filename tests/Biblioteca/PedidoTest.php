@@ -4,6 +4,7 @@ use Biblioteca\Pedido;
 use Biblioteca\Leitor;
 use Biblioteca\Livro;
 use Biblioteca\ItemCarrinho;
+use PHPUnit\Framework\Attributes\CoversClass;
 #[CoversClass(Pedido::class)]
 class PedidoTest extends TestCase
 {

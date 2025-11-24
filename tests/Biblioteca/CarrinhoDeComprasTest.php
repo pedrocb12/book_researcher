@@ -3,6 +3,8 @@ use PHPUnit\Framework\TestCase;
 use Biblioteca\CarrinhoDeCompras;
 use Biblioteca\Leitor;
 use Biblioteca\Livro;
+use PHPUnit\Framework\Attributes\CoversClass;
+
 #[CoversClass(CarrinhoDeCompras::class)]
 
 class CarrinhoDeComprasTest extends TestCase

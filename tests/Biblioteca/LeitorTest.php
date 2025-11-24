@@ -3,6 +3,7 @@ use PHPUnit\Framework\TestCase;
 use Biblioteca\Leitor;
 use Biblioteca\Livro;
 use Biblioteca\Catalogo;
+use PHPUnit\Framework\Attributes\CoversClass;
 #[CoversClass(Leitor::class)]
 class LeitorTest extends TestCase
 {
