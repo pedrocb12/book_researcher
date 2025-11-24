@@ -6,6 +6,7 @@ use Biblioteca\Livro;
 use PHPUnit\Framework\Attributes\CoversClass;
 
 #[CoversClass(CarrinhoDeCompras::class)]
+ 
 
 class CarrinhoDeComprasTest extends TestCase
 {
@@ -16,5 +17,7 @@ class CarrinhoDeComprasTest extends TestCase
         $c = new CarrinhoDeCompras($leitor);
         $c->adicionar($l, 3);
         $this->assertEquals(9.0, $c->total());
+        $this->assertSame(10, $obj->total());
+
     }
 }
