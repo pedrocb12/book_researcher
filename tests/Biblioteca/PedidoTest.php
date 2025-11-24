@@ -15,5 +15,6 @@ class PedidoTest extends TestCase
         $leitor = new Leitor(1,'N','e');
         $pedido = new Pedido($leitor, [$item], 4.0);
         $this->assertEquals(4.0, $pedido->getValorTotal());
+          $this->assertSame($leitor, $pedido->getCliente());
     }
 }
