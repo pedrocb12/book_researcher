@@ -14,6 +14,7 @@ class LeitorTest extends TestCase
         $leitor->adicionarAoCarrinho($l, 2);
         $pedido = $leitor->finalizarCompra();
         $this->assertEquals(10.0, $pedido->getValorTotal());
-        $this->assertNotEmpty($leitor ->$id());
+        $this->assertInstanceOf(leitor::class, $id);
+
     }
 }
