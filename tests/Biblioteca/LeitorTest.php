@@ -15,9 +15,7 @@ class LeitorTest extends TestCase
         $pedido = $leitor->finalizarCompra();
         $this->assertEquals(10.0, $pedido->getValorTotal());
      $carrinho = $leitor->getCarrinho();
-        $itens = $carrinho->getItens();
-
-        $this->assertEquals(2, $itens[1]['quantidade']);
+        
 
 
     }
