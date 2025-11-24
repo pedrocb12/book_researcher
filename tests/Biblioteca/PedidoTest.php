@@ -4,7 +4,7 @@ use Biblioteca\Pedido;
 use Biblioteca\Leitor;
 use Biblioteca\Livro;
 use Biblioteca\ItemCarrinho;
-
+#[CoversClass(Pedido::class)]
 class PedidoTest extends TestCase
 {
     public function testGetValorTotal()

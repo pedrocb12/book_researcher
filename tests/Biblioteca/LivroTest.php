@@ -1,7 +1,7 @@
 <?php
 use PHPUnit\Framework\TestCase;
 use Biblioteca\Livro;
-
+#[CoversClass(Livro::class)]
 class LivroTest extends TestCase
 {
     public function testReduzirEstoque()

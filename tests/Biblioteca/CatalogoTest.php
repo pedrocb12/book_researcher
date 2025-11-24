@@ -2,7 +2,7 @@
 use PHPUnit\Framework\TestCase;
 use Biblioteca\Catalogo;
 use Biblioteca\Livro;
-
+#[CoversClass(Catalogo::class)]
 class CatalogoTest extends TestCase
 {
     public function testBuscarPorTitulo()

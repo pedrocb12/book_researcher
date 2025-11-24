@@ -3,7 +3,7 @@ use PHPUnit\Framework\TestCase;
 use Biblioteca\Leitor;
 use Biblioteca\Livro;
 use Biblioteca\Catalogo;
-
+#[CoversClass(Leitor::class)]
 class LeitorTest extends TestCase
 {
     public function testAdicionarAoCarrinhoEFinalizar()
