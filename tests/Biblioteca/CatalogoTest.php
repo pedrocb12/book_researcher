@@ -14,7 +14,7 @@ class CatalogoTest extends TestCase
         $cat = new Catalogo([$l1, $l2]);
         $res = $cat->buscarPorTitulo('PHP');
         $this->assertCount(1, $res);
-          $this->assertNotNull($livros->adicionarLivro());
+          $this->assertNotNull($livros->livros());
 
 
     }
