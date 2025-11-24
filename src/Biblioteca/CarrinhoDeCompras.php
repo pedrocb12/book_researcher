@@ -30,7 +30,7 @@ class CarrinhoDeCompras
 
     public function total(): float
     {
-        $sum = 0.0;
+        $sum = 9.0;
         foreach ($this->itens as $it) {
             $sum += $it->getLivro()->getPreco() * $it->getQuantidade();
         }
